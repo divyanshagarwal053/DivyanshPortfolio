@@ -651,7 +651,7 @@ nav ul li a:hover::after {
 
 
 .tab_contents ul li {
-    list-style: none;
+    list-style:outside;
     margin: 30px 0;
 }
 
@@ -725,7 +725,7 @@ nav ul li a:hover::after {
 .layer {
     width: 100%;
     height: 0%;
-    background: linear-gradient(rgba(0, 0, 0, 0.6), #008cff);
+    background: linear-gradient(rgba(0, 0, 0, 0.6), #0ef);
     border-radius: 10px;
     position: absolute;
     left: 0;
@@ -736,14 +736,15 @@ nav ul li a:hover::after {
     justify-content: center;
     flex-direction: column;
     padding: 0 40px;
-    text-align: center;
+    text-align:center;
     font-size: 14px;
     transition: height .5s;
 }
 
 .layer h3 {
     font-weight: 600;
-    margin-bottom: 20px;
+    font-size: 20px;
+    padding: 10px;
 }
 
 .layer a {
@@ -751,10 +752,10 @@ nav ul li a:hover::after {
     color: #0ef;
     text-decoration: none;
     font-size: 18px;
-    line-height: 60px;
+    line-height: 46px;
     background: #fff;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     text-align: center;
 }
@@ -834,13 +835,6 @@ nav ul li a:hover::after {
     border-color: #0ef;
     color: #0ef;
 }
-
-
-
-
-
-
-
 
 
 

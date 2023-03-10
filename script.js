@@ -1,6 +1,6 @@
 var typed = new Typed(".animated-text", {
-    strings: ["Data Scientists", "App Developer", "Singer"], typeSpeed: 100,
-    backSpeed: 100,
+    strings: ["Data Science Enthusiast", "App Development Learner", "Singer"], typeSpeed: 100,
+    backSpeed: 150,
     backdelay: 1000,
     loop: true
 })
