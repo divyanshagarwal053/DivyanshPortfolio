@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Divyansh PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/bcf6888e5a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo">PortFolio.</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+
+            <a href="#" style="--i:1;" class="active">Home</a>
+            <a href="#about" style="--i:2;">About</a>
+            <a href="#skills" style="--i:3;">Skills</a>
+            <a href="#projects" style="--i:4;">Projects</a>
+            <a href="#contact" style="--i:5;">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+                <h3>Hello, It's Me</h3>
+                <h1>Divyansh Agarwal</h1>
+                <h3>And I'm a <span class="animated-text">Data Science Enthusiast</span></h3>
+                <p>Intend to build a career in a reputed company with committed & dedicated people, who will help me
+                    to
+                    explore myself fully, realize my potential, willing to work as a key player in a challenging and
+                    creative environment with all my professional and technical skills.</p>
+                <div class="social-media">
+                    <a href="#" style="--i:7;"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" style="--i:8;"><i class='bx bxl-twitter'></i></a>
+                    <a href="https://www.linkedin.com/in/divyansh-agarwal-a18005201" style="--i:9;"><i
+                            class='bx bxl-linkedin' target="_main"></i></a>
+                    <a href="https://github.com/divyanshagarwal053" style="--i:10;"><i class='bx bxl-github'
+                            target="_main"></i></a>
+                </div>
+                <a href="images/Divyansh_Resume.pdf" download class="btn">Download CV</a>
+
+            </div>
+            <div class="home-img">
+                <img class="home-handle" src="images/oie_oie_trim_image.png">
+            </div>
+    </section>
+
+
+    <main>
+
+        <!----------------------------------About Me------------------------------------->
+        <section class="about" id="about">
+
+            <div class="about_content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <p class="about_des">Intend to build a career in a reputed company with committed & dedicated
+                    people, who will help me to explore myself fully, realize my potential, willing to work as a
+                    key player in a challenging and creative environment with all my professional and technical
+                    skills.</p>
+
+                <div class="tab_titles">
+                    <p class="tab_links active_link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab_links" onclick="opentab('achievements')">Achievements</p>
+                    <p class="tab_links" onclick="opentab('extra')">Extra Curricular</p>
+
+                    <p class="tab_links" onclick="opentab('education')">Education</p>
+                </div>
+
+                <div class="tab_contents active_tab" id="skills">
+
+                    <div class="skills-col-1">
+                        <ul>
+                                <li>C</li>
+                                <li>C++</li>
+                                <li>HTML-CSS</li>
+                                <li>JavaScript</li>
+                                <li>SQL/MySQL</li>
+                                <li>DBMS</li>
+                                <li>Python</li>
+                                <li>NumPy, Pandas</li>
+                                <li>Tools: Jupyter, Kaggle, Android Studio</li>
+                            </ul>
+                    </div>
+
+                    <div class="skills-col-2">
+                        <div class="body">
+                            <div class="skill">
+                                <div class="skill-name">C</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-percent-number">80%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">C++</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 70%"></div>
+                                </div>
+                                <div class="skill-percent-number">70%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">HTML</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 60%"></div>
+                                </div>
+                                <div class="skill-percent-number">60%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">CSS</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 40%"></div>
+                                </div>
+                                <div class="skill-percent-number">40%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">JavaScript</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 45%"></div>
+                                </div>
+                                <div class="skill-percent-number">45%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">SQL</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 80%"></div>
+                                </div>
+                                <div class="skill-percent-number">80%</div>
+                            </div>
+                            <div class="skill">
+                                <div class="skill-name">Python</div>
+                                <div class="skill-level">
+                                    <div class="skill-percent" style="width: 70%"></div>
+                                </div>
+                                <div class="skill-percent-number">70%</div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab_contents" id="achievements">
+                    <ul>
+                        <li>Microsoft Certified : Azure Fundamentals</li>
+                        <li>Microsoft Certified : Azure AI Fundamentals</li>
+                        <li>Learn and Build Certificate: Training on Data Science
+                            with Machine Learning & AI</li>
+                        <li>SQL Projects for Beginners Course</li>
+                        <li>Analytics with SQL using Python</li>
+                        <li>30 Days of Google Cloud Program 2021</li>
+                        <li>NPTL-Problem Solving in C</li>
+                        <li>Devtown 7 Days Bootcamp on Basic Web Development</li>
+                    </ul>
+                </div>
+
+                <div class="tab_contents" id="extra">
+                    <ul>
+                        <li>My Team is choosen for 4th runner-up in Poornima Hackathon 2023.</li>
+                        <li>Contributed to Google Developer Student Club(2020-2021) as Vice Captain and
+                            Captain(2021-2022).</li>
+                        <li>Selected in the Top-10 teams at RTU-Poornima Hackathon 2021.</li>
+                        <li>Winner of Mission Talent Trials in Music Category Organized by College Club.</li>
+                        <li>Editor of College Newsletter 1st year 2020-21</li>
+                    </ul>
+                </div>
+
+                <div class="tab_contents" id="education">
+                    <ul>
+                        <li><span>Bachelor of Engineering: Computer
+                                Science - RTU</span><br>Poornima College Of Engineering
+                            (2020 - 2024) <br>Jaipur,Rajasthan</li>
+                        <li><span>Senior Secondary School - CBSE</span><br>D.A.V Centenary Public School
+                            (2019 - 2020) <br>Jaipur,Rajasthan</li>
+                        <li><span>Secondary School - CBSE</span><br>D.A.V Centenary Public School
+                            (2017 - 2018)<br> Jaipur,Rajasthan</li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script> 
+
+        <!---------------------------------projects-------------------------->
+        <section class="projects" id="projects">
+
+            <h2 class="heading">My <span>Projects</span></h2>
+                <div class="project_list">
+                    <div class="project">
+                        <!-- <h3>Success</h3> -->
+                        <img src="images/lvl.jpg">
+                        <div class="layer">
+                            <h3>Success</h3>
+                            <p>Success is basic career counseling website to provide one-stop solution to all people
+                                career related questions such as:
+
+                            <ul>
+                                <li>What skills to learn?</li>
+                                <li>How much we know?</li>
+                                <li>How much more to learn?</li>
+                                <li>From where to learn?</li>
+                            </ul>
+
+                            </p>
+                            <a href="https://counselling-website-rg6q6mc9q-triptiso.vercel.app/" target="_main"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/bank.png">
+                        <div class="layer">
+                            <h3>Bank Database Management System</h3>
+                            <p>This is a Bank Database System which stores customer all details and perform operations
+                                on them.</p>
+                            <a href="#"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/reactjs.png">
+                        <div class="layer">
+                            <h3>First-React App</h3>
+                            <p>This is a basic app called Woofy, which is my first Experiment using ReactJS.</p>
+                            <a href="https://p01oml.csb.app/" target="_main"><i class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/irrigation.jpg">
+                        <div class="layer">
+                            <h3>Automatic Irrigation System</h3>
+                            <p>This is a basic app to help farmers in growing crops effectively and more efficiently by
+                                using Hardware and Software.</p>
+                            <a href="https://github.com/divyanshagarwal053/Irrigation-System.git" target="_main"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/covidTrack.jpg">
+                        <div class="layer">
+                            <h3>Covid-19 Tracker</h3>
+                            <p>This is a app for tracking Covid-19 cases all across world.</p>
+                            <a href="https://github.com/divyanshagarwal053/Covid19_Tracker.git" target="_main"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <img src="images/web.png">
+                        <div class="layer">
+                            <h3>Web Scraper</h3>
+                            <p>This is a Data Science project using python. In this we scrape first 10000 Google search
+                                result data and store them in csv file.</p>
+                            <a href="https://github.com/divyanshagarwal053/Web_Scraper.git" target="_main"><i
+                                    class='bx bx-link-external'></i></a>
+                        </div>
+                    </div>
+
+
+                </div>
+                <!-- <a href="#" class="btn1">See More</a> -->
+
+                <div id="button-7">
+                    <!-- <div id="dub-arrow"><img src="https://github.com/atloomer/atloomer.github.io/blob/master/img/iconmonstr-arrow-48-240.png?raw=true" alt="" /></div> -->
+                    See More
+
+                </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+
+        <section class="contact" id="contact">
+
+            <div class="contact_left">
+                <h1 class="heading">Contact <span>Me</span></h1>
+                <p><i class="fa-solid fa-paper-plane"></i> divyanshagarwal053@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> +91-9782789259</p>
+                <div class="social_icons">
+                    <a href="http://instagram.com/dev_demure" target="_main"><i
+                            class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/divyansh-agarwal-a18005201" target="_main"><i
+                            class="fa-brands fa-linkedin"></i></a>
+
+                    <a href="https://github.com/divyanshagarwal053" target="_main"><i
+                            class="fa-brands fa-square-github"></i></a>
+
+                    <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+
+                    <p class="address"><b>Address:</b> <a href="https://goo.gl/maps/bvSduYRJDQ41DRUU7"
+                            target="_main">Jaipur,
+                            Rajasthan,
+                            India</a></p>
+                </div>
+                <a href="simages/Divyansh_Resume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact_right">
+                <form action="#">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" placeholder="Write your Message" rows="6"></textarea>
+                    <button type="submit" class="btn1 btn2">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <div class="copyright">
+            <p>Copyright &copy; Divyansh. Made By Divyansh Agarwal</p>
+        </div>
+
+    </footer>
+
+    <script>
+        let loadMoreBtn = document.querySelector('#button-7');
+        let currentItem = 3;
+
+        loadMoreBtn.onclick = () => {
+            let boxes = [...document.querySelectorAll(".project")];
+            for (var i = currentItem; i < currentItem + 3; i++) {
+                boxes[i].style.display = 'inline-block';
+            }
+            currentItem += 3;
+
+            if (currentItem >= boxes.length) {
+                loadMoreBtn.style.display = 'none';
+            }
+        }
+    </script>
+    <script src="script.js"></script>
+
+
+
+</body>
+
+</html>
